@@ -15,6 +15,8 @@ trailLength: 50
 trailX:18
 trailY: -21
 trailScl: 3
+riseSpeed: 0.2
+fallSpeed: 0.2
 weapons: [
    {
    name: missiles-mount
