@@ -116,7 +116,7 @@ weapons: [
    name: large-bullet-mount
    reload: 60
    cooldownTime: 90
-   x: 8
+   x: 8.75
    y: 15
    rotateSpeed: 4
    rotate: true
