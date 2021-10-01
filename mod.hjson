@@ -1,0 +1,7 @@
+name: "seitumbra"
+displayName: "Seitumbra"
+author: Antlrr
+description: "Seitumbra"
+version: "1.0"
+minGameVersion: "130"
+hidden: false
