@@ -15,8 +15,8 @@ trailLength: 50
 trailX:18
 trailY: -21
 trailScl: 3
-riseSpeed: 0.2
-fallSpeed: 0.2
+riseSpeed: 0.02
+fallSpeed: 0.02
 weapons: [
    {
    name: missiles-mount
@@ -68,6 +68,45 @@ weapons: [
       despawnEffect: blastExplosion
       status: blasted
       statusDuration: 60
+      }
+   }
+   {
+name: sei-launcher
+   x: 0
+   y: 0
+   rotate: true
+   rotateSpeed: 4
+   mirror: false
+   shadow: 20
+   shootY: 2
+   recoil: 4
+   reload: 45
+   shots: 6
+   spacing: 10
+   velocityRnd: 0.4
+   inaccuracy: 7
+   ejectEffect: none
+   shake: 3
+   shootSound: missile
+   xRand: 8
+   shotDelay: 1
+   bullet: {
+      type: MissileBulletType
+      homingPower: 0.12
+      width: 8
+      height: 8
+      shrinkX: 0
+      shrinkY: 0
+      drag: -0.003
+      homingRange: 80
+      keepVelocity: false
+      splashDamageRadius: 35
+      splashDamage: 45
+      lifetime: 62
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+      weaveScale: 8
+      weaveMag: 2
       }
    }
 ]
