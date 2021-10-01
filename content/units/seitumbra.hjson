@@ -112,4 +112,29 @@ weapons: [
       weaveMag: 2
       }
    }
+   {
+   name: large-bullet-mount
+   reload: 60
+   cooldownTime: 90
+   x: 2
+   y: 10
+   rotateSpeed: 4
+   rotate: true
+   shootY: 7
+   shake: 2
+   recoil: 3
+   shadow: 12
+   ejectEffect: casing3
+   shootSound: shootBig
+   shots: 4
+   shotDelay: 4
+   inaccuracy: 1
+   bullet: {
+      type: BasicBulletType
+      width: 13
+      height: 19
+      shootEffect: shootBig
+      lifetime: 35
+      }
+   }
 ]
