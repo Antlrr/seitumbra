@@ -116,8 +116,8 @@ weapons: [
    name: large-bullet-mount
    reload: 60
    cooldownTime: 90
-   x: 2
-   y: 10
+   x: 4
+   y: 15
    rotateSpeed: 4
    rotate: true
    shootY: 7
@@ -135,6 +135,7 @@ weapons: [
       height: 19
       shootEffect: shootBig
       lifetime: 35
+      speed: 2.50
       }
    }
 ]
