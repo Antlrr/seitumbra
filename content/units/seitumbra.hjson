@@ -143,3 +143,12 @@ weapons: [
       }
    }
 ]
+abilities: [
+   {
+   applyEffect: {
+      name: extrawet
+      displayName: Extra Wet
+      }
+   duration: 3600
+   }
+]
