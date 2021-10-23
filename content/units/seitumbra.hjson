@@ -147,7 +147,7 @@ abilities: [
    {
    type: StatusFieldAbility
    effect: {
-      name: Extra Wet
+      name: status-extra-wet
       displayName: Extra Wet
       }
    duration: 3600
