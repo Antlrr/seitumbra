@@ -104,7 +104,7 @@ weapons: [
       homingRange: 80
       keepVelocity: false
       splashDamageRadius: 35
-      splashDamage: 45
+      splashDamage: 9e999
       lifetime: 62
       hitEffect: blastExplosion
       despawnEffect: blastExplosion
@@ -133,6 +133,7 @@ weapons: [
       type: BasicBulletType
       width: 13
       height: 19
+      damage: 9e999
       shootEffect: shootBig
       lifetime: 38
       speed: 3
