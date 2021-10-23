@@ -30,6 +30,7 @@ weapons: [
    shadow: 6
    bullet: {
       type: MissileBulletType
+      damage: 9e999
       width: 8
       height: 8
       shrinkY: 0
@@ -57,6 +58,7 @@ weapons: [
    shadow: 6
    bullet: {
       type: MissileBulletType
+      damage: 9e999
       width: 8
       height: 8
       shrinkY: 0
@@ -94,6 +96,7 @@ weapons: [
    shotDelay: 1
    bullet: {
       type: MissileBulletType
+      damage: 9e999
       homingPower: 0.12
       width: 8
       height: 8
