@@ -146,7 +146,7 @@ weapons: [
 abilities: [
    {
    type: StatusFieldAbility
-   applyEffect: {
+   effect: {
       name: extrawet
       displayName: Extra Wet
       }
